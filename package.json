@@ -1,9 +1,11 @@
 {
     "private": true,
     "dependencies": {
-        "jscs": "^2.2.1"
+        "eslint": "3.7.0",
+        "eslint-config-hrundel": "latest"
     },
     "scripts": {
-         "lint": "jscs ."
+        "lint": "eslint .",
+        "test": "eslint ."
     }
 }
